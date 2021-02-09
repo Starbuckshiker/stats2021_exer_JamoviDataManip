@@ -77,7 +77,7 @@ You can get the R code for most of the analyses you do in Jamovi.
     
 ```{r}
 jmv::descriptives(
-    data = Week3,
+    data = dataset,
     vars = vars(height, weight),
     sd = TRUE,
     range = TRUE)
@@ -89,7 +89,7 @@ jmv::descriptives(
 ```{r}
 
 jmv::descriptives(
-    data = Week3,
+    data = dataset,
     vars = vars(sex, research),
     freq = TRUE,
     bar = TRUE,
